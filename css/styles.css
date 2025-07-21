@@ -28,7 +28,7 @@ a {
 }
 
 .footer-logo .logo-part {
-    color:#fff
+    color:#f4f4fd
 }
 .nav-link {
     font-family: 'Roboto', sans-serif;
@@ -61,7 +61,7 @@ color: #434455;
     color: #404bbf;
 }
 
-.section-1 {
+.section-first {
     background: #2e2f42;
 }
 
@@ -69,19 +69,19 @@ color: #434455;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
 }
 
-.button {
+.button:focus {
     background:#4d5ae5;
     color:#fff;
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
 .button:hover {
@@ -89,13 +89,22 @@ color: #434455;
     color: #f4f4fd;
 }
 
+.section-third {
+    background-color: #f4f4fd;
+}
+
 .second-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize
+}
+
+.team-link {
+    background-color: #FFFFFF;
 }
 
 .third-title {
