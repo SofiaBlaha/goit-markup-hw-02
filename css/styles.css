@@ -75,8 +75,8 @@ color: #434455;
     color: #fff;
 }
 
-.button:focus {
-    background:#4d5ae5;
+.button {
+    background:#4D5AE5;
     color:#fff;
     font-weight: 500;
     line-height: 1.5;
@@ -84,9 +84,11 @@ color: #434455;
     cursor: pointer;
 }
 
-.button:hover {
+.button:hover
+.button:focus {
     background-color: #404bbf;
     color: #f4f4fd;
+
 }
 
 .section-third {
